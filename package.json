@@ -9,6 +9,6 @@
     "push": "git add . && git commit && git push"
 
   },
-  "author": "",
+  "author": "Anthony FAIVRE",
   "license": "ISC"
 }

@@ -1,7 +1,18 @@
-body{
-    background-color: rgb(110, 155, 37);
-    font-size: larger;
-    p{
-        color: rgb(255, 149, 0);
-    }
-}
+@import "./base/base.scss";
+@import "./base/normalize.scss";
+@import "./base/typography.scss";
+
+@import "./composants/button.scss";
+@import "./composants//card.scss";
+@import "./composants/grille_img.scss";
+@import "./composants/list.scss";
+
+@import "./layouts/footer.scss";
+@import "./layouts/header.scss";
+@import "./layouts/main.scss";
+@import "./layouts/nav.scss";
+
+@import "./pages/home.scss";
+
+@import "./utils/mixin.scss";
+@import "./utils/variable.scss";

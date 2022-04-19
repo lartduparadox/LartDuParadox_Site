@@ -1,0 +1,14 @@
+{
+  "name": "ldp",
+  "version": "1.0.0",
+  "description": "Mon Site Perso",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./scss/redirection.scss ./scss/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git add . && git commit && git push"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
